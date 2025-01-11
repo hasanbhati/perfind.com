@@ -61,7 +61,7 @@ const translations = {
         skill_hvac: "HVAC Technicians",
         skill_warehouse: "Warehouse Workers",
         skill_others: "Others",
-        services_intro: "At PerFind, we are dedicated to helping skilled workers find the right job opportunities in Europe. Whether you're an experienced professional or looking to expand your career, we're here to guide you every step of the way.",
+        services_intro: "PerFind is a international recruitment agency. At PerFind, we are dedicated to helping skilled workers find the right job opportunities in Europe. Whether you're an experienced professional or looking to expand your career, we're here to guide you every step of the way.",
         service_1_title: "Job Placement",
         service_1_desc: "We connect you with reputable employers in Europe, offering jobs that match your skills and experience in industries such as construction, manufacturing, and more.",
         service_2_title: "Visa and Work Permit Assistance",
