@@ -84,7 +84,7 @@ const translations = {
         get_to_know_title: "Get to Know Us",
         founder_name: "Hasan Bhati",
         founder_position: "Founder",
-        founder_desc: "I founded PerFind with a vision to bridge the skilled labor gap between India and Europe. Having witnessed firsthand the challenges faced by both European employers and skilled Indian workers, I established PerFind as a solution that serves both sides of the equation.",
+        founder_desc: "I founded PerFind with a vision to bridge the gap between India and Europe. Having witnessed firsthand the challenges faced by both European employers and skilled Indian workers, I established PerFind as a solution that serves both sides of the equation.",
         founder_achievement: "With honesty and transparency as the core values of PerFind, hopefully it will grow into a trusted name in international recruitment and will be known for its commitment to quality and excellence in service delivery.",
         reason_2_title: "Cultural Integration",
         reason_2_desc: "We prepare our candidates for European work culture, ensuring smooth integration into your workforce.",
