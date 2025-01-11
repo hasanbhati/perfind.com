@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PerFind - For Employers</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="media/Logonobg.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="media/Logonobg.png">
+    <link rel="apple-touch-icon" href="media/Logonobg.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="media/Logonobg.png" alt="PerFind Logo">
+                <h1 data-translate="company_name">PerFind</h1>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" data-translate="nav_home">Home</a>
+                <a href="#" class="current" data-translate="nav_employers">For Employers</a>
+            </div>
+            <div class="language-switcher">
+                <span class="lang-link current">English</span>
+                <span class="lang-separator">|</span>
+                <span class="lang-link">हिन्दी</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="employer-hero">
+        <div class="hero-content">
+            <h1 data-translate="employer_hero_title">Your Trusted Partner in International Recruitment</h1>
+            <p data-translate="employer_hero_subtitle">Connecting European businesses with skilled Indian workforce</p>
+        </div>
+    </section>
+
+    <!-- Get to Know Us Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title" data-translate="get_to_know_title">Get to Know Us</h2>
+            <div class="founder-profile">
+                <div class="founder-image">
+                    <img src="media/hasan-bhati.jpg" alt="Hasan Bhati" class="founder-img">
+                </div>
+                <div class="founder-info">
+                    <h3 data-translate="founder_name">Hasan Bhati</h3>
+                    <p class="founder-title" data-translate="founder_position">Founder</p>
+                    <p class="founder-desc" data-translate="founder_desc">With over a decade of experience in international recruitment, Hasan Bhati founded PerFind with a vision to bridge the skilled labor gap between India and Europe. Having witnessed firsthand the challenges faced by both European employers and skilled Indian workers, he established PerFind as a solution that serves both sides of the equation.</p>
+                    <p class="founder-achievement" data-translate="founder_achievement">Today, under his leadership, PerFind has grown into a trusted name in international recruitment, known for its commitment to quality, transparency, and excellence in service delivery.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose PerFind Section -->
+    <section id="why-choose" class="why-choose-section">
+        <div class="container">
+            <h2 class="section-title" data-translate="why_choose_title">Why Choose PerFind?</h2>
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <i class="fas fa-user-check"></i>
+                    <h3 data-translate="reason_1_title">Pre-screened Candidates</h3>
+                    <p data-translate="reason_1_desc">All our candidates undergo thorough skill assessments and background checks before being presented to employers.</p>
+                </div>
+                <div class="reason-card">
+                    <i class="fas fa-globe-europe"></i>
+                    <h3 data-translate="reason_2_title">Cultural Integration</h3>
+                    <p data-translate="reason_2_desc">We prepare our candidates for European work culture, ensuring smooth integration into your workforce.</p>
+                </div>
+                <div class="reason-card">
+                    <i class="fas fa-briefcase"></i>
+                    <h3 data-translate="reason_3_title">Expertise in Recruitment</h3>
+                    <p data-translate="reason_3_desc">With a deep understanding of both Indian and European markets, we ensure that our candidates not only meet but exceed employer expectations.</p>
+                </div>
+                <div class="reason-card">
+                    <i class="fas fa-passport"></i>
+                    <h3 data-translate="reason_4_title">Visa Assistance</h3>
+                    <p data-translate="reason_4_desc">Complete support throughout the visa process, ensuring smooth and hassle-free documentation for your hired candidates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who Do We Hire Section -->
+    <section id="who-we-hire" class="who-we-hire-section">
+        <div class="container">
+            <h2 class="section-title" data-translate="who_we_hire_title">Who Do We Hire?</h2>
+            <div class="professions-grid">
+                <div class="profession-card">
+                    <i class="fas fa-paint-roller"></i>
+                    <span data-translate="skill_painter">Painters</span>
+                </div>
+                <div class="profession-card">
+                    <i class="fas fa-hard-hat"></i>
+                    <span data-translate="skill_mason">Masons</span>
+                </div>
+                <div class="profession-card">
+                    <i class="fas fa-bolt"></i>
+                    <span data-translate="skill_electrician">Electricians</span>
+                </div>
+                <div class="profession-card">
+                    <i class="fas fa-fire"></i>
+                    <span data-translate="skill_welder">Welders</span>
+                </div>
+                <div class="profession-card">
+                    <i class="fas fa-hammer"></i>
+                    <span data-translate="skill_carpenter">Carpenters</span>
+                </div>
+                <div class="profession-card">
+                    <i class="fas fa-wrench"></i>
+                    <span data-translate="skill_plumber">Plumbers</span>
+                </div>
+                <div class="profession-card">
+                    <i class="fas fa-th"></i>
+                    <span data-translate="skill_tiler">Tilers</span>
+                </div>
+                <div class="profession-card">
+                    <i class="fas fa-brush"></i>
+                    <span data-translate="skill_plasterer">Plasterers</span>
+                </div>
+                <div class="profession-card">
+                    <i class="fas fa-layer-group"></i>
+                    <span data-translate="skill_floor">Floor Installers</span>
+                </div>
+                <div class="profession-card">
+                    <i class="fas fa-building"></i>
+                    <span data-translate="skill_demolition">Demolition Workers</span>
+                </div>
+                <div class="profession-card">
+                    <i class="fas fa-leaf"></i>
+                    <span data-translate="skill_gardener">Gardeners</span>
+                </div>
+                <div class="profession-card">
+                    <i class="fas fa-temperature-high"></i>
+                    <span data-translate="skill_hvac">HVAC Technicians</span>
+                </div>
+                <div class="profession-card">
+                    <i class="fas fa-box"></i>
+                    <span data-translate="skill_warehouse">Warehouse Workers</span>
+                </div>
+                <div class="profession-card">
+                    <i class="fas fa-ellipsis-h"></i>
+                    <span data-translate="skill_others">Others</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Mission Section -->
+    <section id="vision-mission" class="vision-mission-section">
+        <div class="container">
+            <div class="vision-mission-grid">
+                <div class="vision-card">
+                    <h2 data-translate="vision_title">Our Vision</h2>
+                    <p data-translate="vision_desc">To be the trusted bridge between India's skilled workforce and Europe's growing industries, enabling businesses to thrive and workers to realize their dreams.</p>
+                </div>
+                <div class="mission-card">
+                    <h2 data-translate="mission_title">Our Mission</h2>
+                    <p data-translate="mission_desc">At PerFind, we aim to redefine recruitment by connecting local expertise with global opportunities. We are committed to providing reliable, efficient, and innovative solutions for our clients and candidates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title" data-translate="contact_title">Contact Us</h2>
+            <div class="contact-form-container">
+                <form id="employerContactForm" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" 
+                               id="name" 
+                               data-translate-placeholder="employer_form_name" 
+                               placeholder="Your Name" 
+                               required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" 
+                               id="company" 
+                               data-translate-placeholder="employer_form_company" 
+                               placeholder="Your Company Name" 
+                               required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="tel" 
+                                   id="phone" 
+                                   data-translate-placeholder="employer_form_phone" 
+                                   placeholder="Phone Number" 
+                                   required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" 
+                                   id="email" 
+                                   data-translate-placeholder="employer_form_email" 
+                                   placeholder="Email" 
+                                   required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" 
+                                data-translate-placeholder="employer_form_message" 
+                                placeholder="Message" 
+                                rows="5" 
+                                required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button" data-translate="employer_form_submit">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 data-translate="footer_tagline">Perfectly Found, Professionally Delivered.</h3>
+            </div>
+            <div class="footer-section contact-cookie">
+                <div class="contact-info">
+                    <h3 data-translate="footer_contact_title">Contact Info</h3>
+                    <p data-translate="footer_email">
+                        Email: <a href="mailto:info@perfind.com">info@perfind.com</a>
+                    </p>
+                    <p data-translate="footer_phone">
+                        Phone: <a href="tel:+919821855508">+91 9821855508</a>
+                    </p>
+                    <p data-translate="footer_phone_2">
+                        Phone: <a href="tel:+48796532155">+48 796 532 155</a>
+                    </p>
+                </div>
+                <button id="cookieSettings" class="cookie-settings-btn" data-translate="manage_cookies">Manage Cookies</button>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-translate="footer_copyright">© 2025 PerFind. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Add cookie manager script -->
+    <script src="translations.js"></script>
+    <script src="cookie-manager.js"></script>
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            window.cookieManager = new CookieManager();
+        });
+    </script>
+</body>
+</html> 
