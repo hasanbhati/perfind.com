@@ -1062,10 +1062,6 @@ footer:before {
     .logo img {
         height: 30px;  /* Slightly smaller on mobile */
     }
-    
-    .logo h1 {
-        display: none;  /* Hide the text logo on mobile */
-    }
 } 
 
 /* Update footer contact link styles */
