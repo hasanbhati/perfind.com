@@ -172,7 +172,7 @@ nav {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(to top, rgba(69, 73, 106, 0.9), rgba(69, 73, 106, 0) 50%), url('../media/hero-image.jpg');
+    background: linear-gradient(to top, rgba(69, 73, 106, 0.9), rgba(69, 73, 106, 0) 50%), url('./media/hero-image.jpg');
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -371,7 +371,7 @@ footer {
 
 /* Employer Page Specific Styles */
 .employer-hero {
-    background: linear-gradient(to top, rgba(69, 73, 106, 0.9), rgba(69, 73, 106, 0)), url('../media/employer-hero-image.jpg');
+    background: linear-gradient(to top, rgba(69, 73, 106, 0.9), rgba(69, 73, 106, 0)), url('./media/employer-hero-image.jpg');
     background-size: cover;
     background-position: center;
     min-height: 100vh;
