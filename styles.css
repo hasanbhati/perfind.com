@@ -125,7 +125,50 @@ nav {
     background: var(--accent-primary);
 }
 
+/* Language Switcher */
+.language-switcher {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 2rem;
+}
 
+.lang-link {
+    cursor: pointer;
+    padding: 0.2rem 0.5rem;
+    transition: color 0.3s;
+    position: relative;
+    color: var(--primary-dark);
+}
+
+.lang-link:after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background: var(--accent-primary);
+    transition: width 0.3s ease;
+}
+
+.lang-link:hover:after {
+    width: 80%;
+}
+
+.lang-link.current {
+    color: var(--accent-primary);
+    font-weight: 600;
+}
+
+.lang-link.current:after {
+    width: 80%;
+}
+
+.lang-separator {
+    color: #000000;
+}
 
 /* Hero Section */
 .hero {
@@ -424,7 +467,7 @@ footer {
 }
 
 .team-title {
-    color: var(--white);
+    color: var(--accent-light);
     font-size: 1.1rem;
     font-weight: 500;
 }
@@ -698,8 +741,17 @@ footer {
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
+    .founder-profile {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
     .vision-mission-grid {
         grid-template-columns: 1fr;
+    }
+
+    .founder-img {
+        max-width: 300px;
     }
 } 
 
@@ -724,6 +776,11 @@ footer {
     text-align: center;
     font-size: 2.5rem;
     color: var(--primary-dark);
+}
+
+/* Adjust specific section spacings */
+.founder-profile {
+    margin-top: 2rem;
 }
 
 .reasons-grid,
@@ -765,7 +822,8 @@ footer {
 }
 
 /* Hover Effects */
-.nav-links a:hover {
+.nav-links a:hover,
+.lang-link:hover {
     color: var(--accent-primary);
 }
 
@@ -1007,7 +1065,14 @@ footer:before {
         line-height: 1.2;
     }
 
+    .language-switcher {
+        margin-left: 1rem;  /* Reduce margin */
+        font-size: 0.9rem;  /* Match nav links font size */
+    }
 
+    .lang-link {
+        padding: 0.2rem 0.3rem;  /* Reduce padding */
+    }
 } 
 
 /* Logo styling */
